@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 
+
 </head>
 
 <body>
@@ -38,24 +39,11 @@
         <label>
             <input type="checkbox" name="cookies" value="none"> Decline all cookies
         </label>
-        
-        <a href="#">Let's Go</a>
+        <!-- <a href="#" >Save Preference</a> -->
+        <button id="save-preference" >Save  Preference</button>
     </div>
-    <script>
-        window.addEventListener("load", function () {
-            setTimeout(
-                function open(event) {
-                    document.querySelector(".popup").style.display = "block";
-                },
-                1000
-            )
-        });
-        document.querySelector("#close").addEventListener("click", function () {
-            document.querySelector(".popup").style.display = "none";
-        });
-
-    </script>
-
+  
+<script src="Modal.js"></script>
 
 </body>
 
