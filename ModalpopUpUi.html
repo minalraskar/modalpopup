@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <!-- <div id="cookie-popup" class="hidden">
+       
+        <p>Please select your cookie preferences:</p>
+        <label>
+            <input id="" type="checkbox" name="cookies" value="all"> Accept all cookies
+        </label>
+        <label>
+            <input type="checkbox" name="cookies" value="some"> Accept only necessary cookies
+        </label>
+        <label>
+            <input type="checkbox" name="cookies" value="none"> Decline all cookies
+        </label>
+        <button id="save-preference" >Save Preference</button>
+    </div> -->
+    <div class="popup"> 
+        <button id="close">&times;</button>
+        <h4>Please select your cookie preferences:</h4>
+        <label>
+            <input id="" type="checkbox" name="cookies" value="all"> Accept all cookies
+        </label>
+        <label>
+            <input type="checkbox" name="cookies" value="some"> Accept only necessary cookies
+        </label>
+        <label>
+            <input type="checkbox" name="cookies" value="none"> Decline all cookies
+        </label>
+        
+        <a href="#">Let's Go</a>
+    </div>
+    <script>
+        window.addEventListener("load", function () {
+            setTimeout(
+                function open(event) {
+                    document.querySelector(".popup").style.display = "block";
+                },
+                1000
+            )
+        });
+        document.querySelector("#close").addEventListener("click", function () {
+            document.querySelector(".popup").style.display = "none";
+        });
+
+    </script>
+
+
+</body>
+
+</html>
