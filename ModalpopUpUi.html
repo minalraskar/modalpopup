@@ -13,20 +13,7 @@
 </head>
 
 <body>
-    <!-- <div id="cookie-popup" class="hidden">
-       
-        <p>Please select your cookie preferences:</p>
-        <label>
-            <input id="" type="checkbox" name="cookies" value="all"> Accept all cookies
-        </label>
-        <label>
-            <input type="checkbox" name="cookies" value="some"> Accept only necessary cookies
-        </label>
-        <label>
-            <input type="checkbox" name="cookies" value="none"> Decline all cookies
-        </label>
-        <button id="save-preference" >Save Preference</button>
-    </div> -->
+ 
     <div class="popup"> 
         <button id="close">&times;</button>
         <h4>Please select your cookie preferences:</h4>
@@ -39,8 +26,8 @@
         <label>
             <input type="checkbox" name="cookies" value="none"> Decline all cookies
         </label>
-        <!-- <a href="#" >Save Preference</a> -->
-        <button id="save-preference" >Save  Preference</button>
+      
+        <button id="save-preference" onclick='savePreference()'>Save  Preference</button>
     </div>
   
 <script src="Modal.js"></script>

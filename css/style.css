@@ -1,18 +1,4 @@
-/* #cookie-popup {
-    position: fixed;
-    top: 50%;
-    left: 50%;  
-    padding: 20px;
-    background: #f5f5f5;
-    border: 1px solid #ccc;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    z-index: 9999;
-  }
-  
-  #cookie-popup.hidden {
-    display: none;
-  }
-   */
+
    *,
    *:before,
    *:after{
@@ -33,7 +19,7 @@
        top: 50%;
        border-radius: 8px;
        font-family: "Poppins",sans-serif;
-       display: none;
+       display: block ;
        text-align: center;
    }
    .popup button{
@@ -62,5 +48,6 @@
        color: #ffffff;
        text-decoration: none;
        padding: 5px 0;
+       border-radius: 10px;
    }
     
